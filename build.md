@@ -1,47 +1,25 @@
-YouTube: 18.30.37  
-Twitch: 15.7.0  
-Tiktok: 30.7.3  
-Reddit: 2023.30.0  
-Twitter: 10.1.0-release.0  
+Music (arm64-v8a): 7.22.51  
+Music (arm-v7a): 7.22.51  
+YouTube: 19.34.42  
+Music-Extended (arm64-v8a): 7.16.53  
+Music-Extended (arm-v7a): 7.16.53  
+Twitter: 10.62.1-release.0  
+YouTube-Extended: 19.16.39  
+Reddit-Extended: 2024.17.0  
+Twitch: 16.9.1  
+TikTok: 36.5.4  
 
+Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
+Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
 
-Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or YT Music  
+[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
+  
+CLI: inotia00/revanced-cli-4.6.2-all.jar  
+Integrations: inotia00/revanced-integrations-1.15.1.apk  
+Patches: inotia00/revanced-patches-4.15.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v4.15.1)
 
-[revanced-extended-magisk-module](https://github.com/MatadorProBr/revanced-extended-magisk-module)  
-
----
-Changelog:  
-CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.115.1.apk  
-Patches: inotia00/revanced-patches-2.187.1.jar  
-
-YouTube
-==
-- feat(youtube): add support version `v18.30.37`
-- feat(youtube/hide-button-container): now it support versions other than YouTube v18.20.39 https://github.com/ReVanced/revanced-patches/pull/2723
-- fix(youtube/integration): move dependence to dummy class path
-- fix(youtube/microg-support): app does not close when an error occurs
-- fix(youtube/microg-support): error toast message is not set correctly
-- feat(youtube/translations): update translation
-`Belarusian`, `Bulgarian`, `Chinese Traditional`, `French`, `German`, `Greek`, `Hungarian`, `Indonesian`, `Italian`, `Japanese`, `Polish`, `Russian`, `Vietnamese`
-
-
-Music
-==
-- feat(music): add `hide-channel-guidelines` patch
-- feat(music/litho): add some exception
-- feat(music/enable-new-layout): change default value
-- feat(music/enable-new-layout): forcibly disable when the switch is off
-- feat(music/enable-sleep-timer): forcibly disable when the switch is off
-- feat(music/translations): update translation
-`Brazilian`, `Chinese Traditional`, `French`, `Indonesian`, `Korean`, `Russian`, `Spanish`, `Ukrainian`, `Vietnamese`
-
-
-Etc
-==
-- At the end of this release, RVX has been [discontinued](https://github.com/inotia00/revanced-documentation/wiki/Announcement). Thank you for using it so far.
-
-
-※ Compatible ReVanced Manager: [RVX Manager v1.5.2 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.5.2)
-
----  
+CLI: j-hc/revanced-cli-4.6.0-all.jar  
+Integrations: ReVanced/revanced-integrations-1.16.0.apk  
+Patches: ReVanced/revanced-patches-4.17.0.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.17.0)  
